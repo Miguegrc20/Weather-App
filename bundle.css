@@ -1,0 +1,37 @@
+/*!*********************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/app/index.css ***!
+  \*********************************************************************/
+body {
+  background: #373b44; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #4286f4,
+    #373b44
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #4286f4,
+    #373b44
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.card {
+  margin: 10px;
+}
+
+.form-group {
+  margin: 10px;
+}
+
+.btn.btn-success.btn-block {
+  width: 96.5%;
+  display: block;
+  margin: 0 auto;
+}
+
+.alert.alert-danger {
+  display: block;
+  margin: 0 auto;
+  width: 96.5%;
+}
+
